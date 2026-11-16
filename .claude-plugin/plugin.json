@@ -1,0 +1,21 @@
+{
+  "name": "nine30-hai",
+  "displayName": "Hai",
+  "version": "0.1.0",
+  "description": "Quant research with Hai by nine30: point-in-time market data, backtests, parameter studies and paper trading, driven from Claude.",
+  "author": {
+    "name": "nine30",
+    "url": "https://hai.nine30.com"
+  },
+  "homepage": "https://hai.nine30.com/docs",
+  "repository": "https://github.com/NINE30-Inc/hai-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "quant",
+    "backtesting",
+    "trading-research",
+    "market-data",
+    "paper-trading"
+  ],
+  "privacyPolicyUrl": "https://hai.nine30.com/privacy"
+}

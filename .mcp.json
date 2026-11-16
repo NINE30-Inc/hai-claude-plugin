@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "hai": {
+      "type": "http",
+      "url": "https://hai.nine30.com/api/mcp"
+    }
+  }
+}
