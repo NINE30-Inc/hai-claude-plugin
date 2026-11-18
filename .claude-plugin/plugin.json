@@ -1,10 +1,11 @@
 {
   "name": "nine30-hai",
   "displayName": "Hai",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Quant research with Hai by nine30: point-in-time market data, backtests, parameter studies and paper trading, driven from Claude.",
   "author": {
-    "name": "nine30",
+    "name": "NINE30, Inc.",
+    "email": "support@nine30.com",
     "url": "https://hai.nine30.com"
   },
   "homepage": "https://hai.nine30.com/docs",
@@ -17,5 +18,9 @@
     "market-data",
     "paper-trading"
   ],
-  "privacyPolicyUrl": "https://hai.nine30.com/privacy"
+  "privacyPolicyUrl": "https://hai.nine30.com/privacy",
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://hai.nine30.com/docs",
+  "supportUrl": "https://hai.nine30.com/help",
+  "termsOfServiceUrl": "https://hai.nine30.com/terms"
 }

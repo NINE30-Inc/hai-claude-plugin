@@ -1,6 +1,6 @@
 ---
 name: explain-run
-description: Explain a Hai backtest, study or paper trade result in plain language. Use when someone shares a Hai run link or id, or asks why a model made or lost money, what drove a drawdown, or what a number on a Hai page means.
+description: Explain a Hai backtest, study or paper trade result in plain language, or open its report or order history. Use when someone shares a Hai run link or id, asks why a model made or lost money or what drove a drawdown, or wants to see a run's orders.
 ---
 
 # Explain a Hai result
@@ -9,7 +9,7 @@ Explaining is read-only. Don't create, change or rerun anything unless the perso
 
 ## 1. Read the exact records
 
-- `get_run` for the run's status, window and settings, and `get_run_results` for its performance
+- `get_run` for the run's status, window and settings, and `get_run_results` for its performance. Results exist only for `succeeded` runs. For any other status, report it with its reason.
 - `get_strategy_source` for the exact strategy version the run used. Explain that version, not the latest one.
 - `get_run_orders` when the question is about specific trades or dates
 - `get_study` for a parameter study, and `get_paper_trade` with `get_paper_trade_orders` for a paper trade
@@ -25,8 +25,11 @@ If a record is missing or refused, say what's missing. Don't fill the gap from m
 
 Keep formulas, code and parameter tables for when they're asked for.
 
-## 3. Close with a link and one next step
+## 3. Link the right page
 
-Link the Hai page for the run, study or paper trade. Suggest one useful check, such as a study across lookbacks or a shorter window that excludes one outlier year, and don't run it until asked.
+- The run's report: the `backtest_url` from `get_run`
+- Its full order history: the `orders_url` from `get_run`, which opens **Diagnostics → Execution orders**, with **Load more orders** for more pages
 
-Hai results are simulations. Don't turn an explanation into a recommendation to buy, sell or hold anything.
+Both need the person's normal Hai sign-in. Don't mint a live view (`get_live_view`) to show a finished run, and don't page through every order or export a CSV just to show orders. Link the page instead.
+
+Suggest one useful check, such as a study across lookbacks or a window that excludes one outlier year, and don't run it until asked. Hai results are simulations: never turn an explanation into a recommendation to buy, sell or hold.
