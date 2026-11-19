@@ -30,4 +30,4 @@ Changes need the person's go-ahead each time:
 
 ## Live trading is out of scope
 
-Hai's Live trading places real orders in the person's own broker account, and only the person can start or change it in the Hai portal. This plugin can read Live trades (`list_live_trades`, `get_live_trade`) but never changes them. If someone asks to go live, hand them the portal link Hai returns.
+A paper trade's `next_step` may carry a Live offer with a relative `portal_path`: share only that link, as `https://hai.nine30.com` + `portal_path`. Live trading places real orders and only the person starts or changes it in the Hai portal; see the `live` skill for read-only checks and a prepared review link.

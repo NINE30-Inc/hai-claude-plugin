@@ -1,8 +1,8 @@
 {
   "name": "nine30-hai",
   "displayName": "Hai",
-  "version": "0.2.0",
-  "description": "Quant research with Hai by nine30: point-in-time market data, backtests, parameter studies and paper trading, driven from Claude.",
+  "version": "0.3.0",
+  "description": "Quant research with Hai by nine30: point-in-time market data, backtests, parameter studies and paper trading, plus read-only checks of your Live trades, driven from Claude.",
   "author": {
     "name": "NINE30, Inc.",
     "email": "support@nine30.com",

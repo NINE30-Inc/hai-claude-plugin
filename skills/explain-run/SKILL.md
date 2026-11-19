@@ -1,6 +1,7 @@
 ---
 name: explain-run
 description: Explain a Hai backtest, study or paper trade result in plain language, or open its report or order history. Use when someone shares a Hai run link or id, asks why a model made or lost money or what drove a drawdown, or wants to see a run's orders.
+model: fable
 ---
 
 # Explain a Hai result
