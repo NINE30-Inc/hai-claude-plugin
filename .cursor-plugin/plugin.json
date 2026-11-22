@@ -1,0 +1,21 @@
+{
+  "name": "nine30-hai",
+  "displayName": "Hai",
+  "version": "0.3.1",
+  "description": "Quant research with Hai by NINE30 from your AI agent: point-in-time market data for US stocks, futures and crypto, backtests, parameter studies and paper trading, plus read-only checks of your Live trades. Connects over MCP with OAuth sign-in; no API key.",
+  "author": {
+    "name": "NINE30, Inc.",
+    "email": "support@nine30.com"
+  },
+  "homepage": "https://hai.nine30.com/docs",
+  "repository": "https://github.com/NINE30-Inc/hai-claude-plugin",
+  "license": "MIT",
+  "keywords": ["quant", "backtesting", "trading-research", "market-data", "paper-trading", "mcp"],
+  "logo": "assets/logo.svg",
+  "skills": "skills/",
+  "mcpServers": {
+    "hai": {
+      "url": "https://hai.nine30.com/api/mcp"
+    }
+  }
+}

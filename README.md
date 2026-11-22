@@ -1,4 +1,4 @@
-# Hai for Claude
+# Hai for Claude and Cursor
 
 Hai by nine30 is a quant research platform. It provides point-in-time market data for equities, futures and crypto, server-side analytics, and a strategy platform for backtests, parameter studies and paper trading. This plugin connects Claude to your Hai workspace so you can research an idea, backtest it, and follow it as a paper trade, all from a conversation.
 
@@ -29,6 +29,8 @@ To update an existing install: `claude plugin update nine30-hai@nine30-hai` (aut
 Then run `/mcp`, select **hai** and sign in. Ask "Connect to Hai and tell me which workspace this is" to check the connection.
 
 **Claude (web, desktop and Cowork):** in **Plugins** (older versions: Settings → Customize → Plugins), add the marketplace `NINE30-Inc/hai-claude-plugin`, install **Hai**, then connect it from the plugin's **Connectors** tab. Plugins need a paid Claude plan; on Claude Free, add `https://hai.nine30.com/api/mcp` as a custom connector instead (tools only, no skills).
+
+**Cursor:** install **Hai** from the [Cursor Marketplace](https://cursor.com/marketplace) once listed, or add just the Hai connector with one click: [Add to Cursor](https://cursor.com/install-mcp?name=hai&config=eyJ1cmwiOiJodHRwczovL2hhaS5uaW5lMzAuY29tL2FwaS9tY3AifQ==) (or add `https://hai.nine30.com/api/mcp` under Cursor Settings → MCP). Sign in when Cursor asks (Cursor Settings → MCP → hai → Connect). The plugin's Cursor manifest is `.cursor-plugin/plugin.json`; it uses the same skills and connector.
 
 You need a Hai account. Sign up at [hai.nine30.com](https://hai.nine30.com).
 

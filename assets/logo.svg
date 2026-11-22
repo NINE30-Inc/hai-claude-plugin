@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Hai">
+  <!--
+    Hai. The palette is the portal's own: the hai-primary gold on the
+    hai-canvas near-black, both from globals.css.
+
+    (Those names are written without their CSS leading hyphens on purpose. A
+    double hyphen is not legal inside an XML comment, and an SVG that trips a
+    strict parser is one that renders nowhere.)
+
+    Filled gold tile rather than the dark one the product uses, because a
+    favicon is 16px against browser chrome we do not control: a near-black tile
+    all but disappears in a dark-mode tab strip. Inverting keeps the brand
+    colour as the field, which is the part that survives at that size anyway.
+
+    The letters are paths, not a text element. An SVG favicon renders wherever
+    it lands and a font-family reference would resolve differently on every
+    machine. Drawn on a 32-unit grid, optically centred at 16,16 with the 3.2
+    stroke accounted for on all four edges.
+  -->
+  <rect width="32" height="32" rx="7" fill="#dcc79a" />
+  <g
+    fill="none"
+    stroke="#141312"
+    stroke-width="3.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path d="M5.6 24 13.15 8 20.7 24" />
+    <path d="M8.15 18.6H18.15" />
+    <path d="M26.4 8V24" />
+  </g>
+</svg>

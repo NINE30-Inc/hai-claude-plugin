@@ -11,6 +11,7 @@ Hai is a quantitative research and simulation platform. This plugin uses Hai's c
 2. If Hai's tools are missing, or a call returns an authentication error, the Hai connector isn't signed in. A chat can't open the sign-in itself, so give the exact path:
    - **claude.ai or Claude desktop:** **Plugins** (in older versions, Settings → Customize → Plugins) → Hai → **Connectors** tab → **Connect**. Sign in to Hai in the window that opens, approve, then come back and say "done".
    - **Claude Code:** type `/mcp`, choose **hai**, then **Authenticate**. The browser opens Hai's sign-in.
+   - **Cursor:** open **Cursor Settings → MCP** (or **Customize** in newer versions), find **hai**, and choose **Connect** (or **Login**). The browser opens Hai's sign-in; come back to the chat when it's approved.
    - If a separate custom Hai connector is also connected, suggest removing it, so only one Hai connection answers.
    Never ask for a password, API key or token in the conversation.
 3. Call `whoami` with no arguments. Say the connection works only after this call succeeds, then name the organization and the permissions it returned, and ask the person to confirm it's the workspace they expect. Wait for that confirmation before reading any research or continuing their request. Approving the sign-in, installing the plugin or seeing the tool list isn't proof that the connection works.
