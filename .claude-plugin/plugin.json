@@ -8,7 +8,7 @@
     "email": "support@nine30.com",
     "url": "https://hai.nine30.com"
   },
-  "homepage": "https://hai.nine30.com/docs",
+  "homepage": "https://hai.nine30.com/connectors",
   "repository": "https://github.com/NINE30-Inc/hai-claude-plugin",
   "license": "MIT",
   "keywords": [
@@ -20,7 +20,7 @@
   ],
   "privacyPolicyUrl": "https://hai.nine30.com/privacy",
   "icon": "./.claude-plugin/icon.png",
-  "documentationUrl": "https://hai.nine30.com/docs",
+  "documentationUrl": "https://hai.nine30.com/connectors",
   "supportUrl": "https://hai.nine30.com/help",
   "termsOfServiceUrl": "https://hai.nine30.com/terms"
 }

@@ -7,7 +7,7 @@
     "name": "NINE30, Inc.",
     "email": "support@nine30.com"
   },
-  "homepage": "https://hai.nine30.com/docs",
+  "homepage": "https://hai.nine30.com/connectors",
   "repository": "https://github.com/NINE30-Inc/hai-claude-plugin",
   "license": "MIT",
   "keywords": ["quant", "backtesting", "trading-research", "market-data", "paper-trading", "mcp"],

@@ -43,7 +43,7 @@ You need a Hai account. Sign up at [hai.nine30.com](https://hai.nine30.com).
 
 ## Links
 
-- Documentation: [hai.nine30.com/docs](https://hai.nine30.com/docs)
+- Setup and usage: [hai.nine30.com/connectors](https://hai.nine30.com/connectors)
 - Privacy policy: [hai.nine30.com/privacy](https://hai.nine30.com/privacy)
 - Terms: [hai.nine30.com/terms](https://hai.nine30.com/terms)
 - Support: use the **Feedback** button in Hai, or ask Claude to file feedback through the connector.
