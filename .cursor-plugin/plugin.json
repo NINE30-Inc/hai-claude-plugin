@@ -1,7 +1,7 @@
 {
   "name": "nine30-hai",
   "displayName": "Hai by NINE30",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Quant research with Hai by NINE30 from your AI agent: point-in-time market data for US stocks, futures and crypto, backtests, parameter studies and paper trading, plus read-only checks of your Live trades. Connects over MCP with OAuth sign-in; no API key.",
   "author": {
     "name": "NINE30, Inc.",

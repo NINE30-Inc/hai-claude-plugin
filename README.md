@@ -1,6 +1,6 @@
 # Hai for Claude and Cursor
 
-Hai by nine30 is a quant research platform. It provides point-in-time market data for equities, futures and crypto, server-side analytics, and a strategy platform for backtests, parameter studies and paper trading. This plugin connects Claude to your Hai workspace so you can research an idea, backtest it, and follow it as a paper trade, all from a conversation.
+Hai by NINE30 is a quant research platform. It provides point-in-time market data for equities, futures and crypto, server-side analytics, and a strategy platform for backtests, parameter studies and paper trading. This plugin connects Claude to your Hai workspace so you can research an idea, backtest it, and follow it as a paper trade, all from a conversation.
 
 Hai is a research and simulation platform. Nothing it returns is investment advice.
 

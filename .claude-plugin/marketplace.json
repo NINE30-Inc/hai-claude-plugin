@@ -1,6 +1,6 @@
 {
   "name": "nine30-hai",
-  "description": "Hai by nine30: quant research, backtests and paper trading from Claude.",
+  "description": "Hai by NINE30: quant research, backtests and paper trading from Claude.",
   "owner": {
     "name": "NINE30, Inc.",
     "url": "https://hai.nine30.com"
@@ -9,7 +9,7 @@
     {
       "name": "nine30-hai",
       "source": "./",
-      "description": "Quant research with Hai by nine30: point-in-time market data, backtests, parameter studies and paper trading, driven from Claude."
+      "description": "Quant research with Hai by NINE30: point-in-time market data, backtests, parameter studies and paper trading, driven from Claude."
     }
   ]
 }
